@@ -44,6 +44,14 @@
         <servlet-name>Login</servlet-name>
         <servlet-class>servlet.Login</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ListaVendas</servlet-name>
+        <servlet-class>servlet.ListaVendas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarRelatorio</servlet-name>
+        <servlet-class>servlet.ListarRelatorio</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletBD</servlet-name>
         <url-pattern>/ServletBD</url-pattern>
@@ -79,6 +87,14 @@
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListaVendas</servlet-name>
+        <url-pattern>/ListaVendas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarRelatorio</servlet-name>
+        <url-pattern>/ListarRelatorio</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

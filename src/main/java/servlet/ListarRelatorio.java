@@ -5,9 +5,9 @@
  */
 package servlet;
 
-import java.io.IOException;
-import entidade.RelatorioVendas;
 import dao.RelatorioVendasDAO;
+import entidade.RelatorioVendas;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import javax.servlet.RequestDispatcher;

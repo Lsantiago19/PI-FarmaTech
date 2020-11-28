@@ -6,7 +6,6 @@
 package servlet;
 
 import dao.VendasDAO;
-
 import entidade.Vendas;
 import java.io.IOException;
 import java.io.PrintWriter;
